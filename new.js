@@ -1,7 +1,3 @@
-import Date from './date.js';
-
-Date();
-
 let books = [];
 const bookTitle = document.querySelector('#title');
 const bookAuthor = document.querySelector('#author');
@@ -75,3 +71,6 @@ function ctInfo() {
   bookContainer.classList.add('view');
 }
 contactInfo.addEventListener('click', ctInfo);
+
+const dateContainer = document.querySelector('.date');
+dateContainer.innerHTML += new Date()
