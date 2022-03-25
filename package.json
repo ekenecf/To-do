@@ -1,22 +1,4 @@
 {
-  "name": "to-do",
-  "version": "1.0.0",
-  "description": "Awesome books is single page application used for storing books",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ekenecf/To-do.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ekenecf/To-do/issues"
-  },
-  "homepage": "https://github.com/ekenecf/To-do#readme",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^7.32.0",

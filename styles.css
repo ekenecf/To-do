@@ -3,14 +3,37 @@ body {
   padding: 0;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 15px;
+  border: 3px solid;
+  width: 90%;
+  margin-left: 3%;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  list-style: none;
+  margin-right: 20px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
 #book-list-container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
+#book-list-container.view {
+  display: none;
+}
+
 #book-list-container h1 {
-  margin: 0;
+  margin-top: 50px;
   font-size: 45px;
 }
 
@@ -46,6 +69,12 @@ body {
   justify-content: flex-end;
 }
 
+p.date {
+  text-align: center;
+  margin-right: 20px;
+  font-size: 20px;
+}
+
 #add {
   width: 25%;
   margin-top: 2%;
@@ -69,4 +98,47 @@ body {
 
 #author {
   height: 30px;
+}
+
+.bkcontact.van {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bkcontact {
+  display: none;
+}
+
+.contact-info p {
+  font-size: 20px;
+}
+
+li.info {
+  font-size: 20px;
+}
+
+h3 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.display-books {
+  display: none;
+}
+
+.display-books.show {
+  display: block;
+}
+
+h4 {
+  margin-left: 30px;
+}
+
+footer {
+  position: fixed;
+  width: 90%;
+  top: 88%;
+  border: 2px solid;
+  margin-left: 5%;
 }

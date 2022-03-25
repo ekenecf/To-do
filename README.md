@@ -2,8 +2,6 @@
 
 Awesome books is single page application used for storing books
 
-
-
 ## Built With
 
 Major languages: 
