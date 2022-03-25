@@ -10,17 +10,30 @@
 </head>
 
 <body>
+    <header>
+        <div class="header">
+            <h1>Awesome Books</h1>
+            <nav>
+                <ul class="navigation">
+                    <li id="list">List</li>
+                    <li id="add-new">Add new book</li>
+                    <li id="contact-info">Contact</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <p class="date"></p>
 
     <div class="display-books">
         <h2>All Awesome Books</h2>
+        <div class="bookLine">
+
+        </div>
     </div>
 
-    <div class="bookLine">
-        
-    </div>
 
-
-    <div id="book-list-container">
+    <section id="book-list-container">
         <h1>Add a new book</h1>
 
         <form action="#" id="form">
@@ -33,9 +46,28 @@
                 <button id="add">Add</button>
             </div>
         </form>
-    </div>
+    </section>
 
-    <script src="index.js"></script>
+    <section class="bkcontact">
+        <div class="contact-info">
+            <h3>Contact Information</h3>
+            <p>
+                Do you have any questions or you just want to say "Hello"?
+                You can reach out to us at;
+            </p>
+            <ul>
+                <li class="info">Our e-mail: ekens2u@gmail.com</li>
+                <li class="info">Our phone number: +2347032887144</li>
+                <li class="info">Our address: Nigeria</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <h4>Copyright 2022</h4>
+      </footer>
+
+    <script type="module" src="new.js"></script>
 </body>
 
 </html>
