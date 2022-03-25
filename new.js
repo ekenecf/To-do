@@ -73,4 +73,4 @@ function ctInfo() {
 contactInfo.addEventListener('click', ctInfo);
 
 const dateContainer = document.querySelector('.date');
-dateContainer.innerHTML += new Date()
+dateContainer.innerHTML = new Date();
